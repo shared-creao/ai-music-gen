@@ -1,0 +1,11 @@
+# !cat requirements.txt | xargs -n 1 pip install --extra-index-url https://download.pytorch.org/whl/cu116
+# praat-parselmouth
+# ipywidgets
+# uggingface_hub
+# pip==23.0.1 # fix pip version for fairseq install
+# fairseq==0.12.2
+# jupyter nbextension enable --py widgetsnbextension
+# existing_files = glob.glob('/content/**/*.*', recursive=True)
+# numpy==1.21
+# --upgrade protobuf=3.9.2
+# -y tensorflow!pip install tensorflow==2.11.0 
